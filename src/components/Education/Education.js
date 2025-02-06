@@ -53,7 +53,7 @@ const Work = () => {
                 <div className='demo'>
                   <p className='year'>{edu.year}</p>
                   <p className='course'>{edu.course}</p>
-                   <p className='score'>{edu.scoreType}:{edu.score} </p>
+                   <p className='score'>{edu.scoreType} : {edu.score} </p>
                   <p className='institution'>{edu.institution}</p>
                 </div>
               </div>
