@@ -25,18 +25,24 @@ const Work = () => {
           <div className='details'>
             {[
               {
-                year: "2024 - Present",
+                year: "2021 - Present",
                 course: "Bachelor of Technology (B-tech)",
+                scoreType:"CGPA",
+              score:"8.53/10",
                 institution: "VIT University - Bhopal"
               },
               {
                 year: "2016 - 2018",
                 course: "Higher Secondary",
+                scoreType:"Percentage",
+              score:"81.2 %",
                 institution: "SBBPSS Mirzapur"
               },
               {
-                year: "2006 - 2016",
+                year: "2014 - 2016",
                 course: "Secondary School",
+                scoreType:"Percentage",
+              score:"88.5 %",
                 institution: "SBBPSS Mirzapur"
               }
             ].map((edu, index) => (
@@ -47,6 +53,7 @@ const Work = () => {
                 <div className='demo'>
                   <p className='year'>{edu.year}</p>
                   <p className='course'>{edu.course}</p>
+                   <p className='score'>{edu.scoreType}:{edu.score} </p>
                   <p className='institution'>{edu.institution}</p>
                 </div>
               </div>
